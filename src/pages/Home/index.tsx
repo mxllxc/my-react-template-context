@@ -6,7 +6,7 @@ const Home: React.FC = () => {
 
     return (
         <div>
-            <h3 className="text-3xl font-bold underline">{user.email}</h3>
+            <button className="btn btn-primary">{user.email}</button>
         </div>
     )
 }
